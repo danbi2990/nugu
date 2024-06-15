@@ -1,6 +1,18 @@
 [package]
+authors = [
+    "danbi2990 <danbi2990@gmail.com>",
+]
 name = "nugu"
+description = "not yet described."
 version = "0.1.0"
 edition = "2021"
+license = "MIT OR Apache-2.0"
+homepage = "https://github.com/danbi2990/nugu/"
+repository = "https://github.com/danbi2990/nugu/"
+readme = "README.md"
+
+[[bin]]
+name = "nugu"
+path = "src/main.rs"
 
 [dependencies]
